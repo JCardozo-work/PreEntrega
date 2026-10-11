@@ -1,0 +1,59 @@
+.cart-container {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.cart-items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+/* En el carrito la tarjeta va acostada */
+.cart-items-container .card {
+  flex-direction: row;
+}
+
+.cart-items-container .card img {
+  width: 170px;
+  flex-shrink: 0;
+  aspect-ratio: auto;
+}
+
+.cart-items-container .card-description {
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+}
+
+.empty-cart {
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+}
+
+.cart-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid var(--ink);
+}
+
+.cart-actions p {
+  font-size: 1.1rem;
+}
+
+.cart-actions strong {
+  margin-left: 0.5rem;
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+}
+
+@media (max-width: 520px) {
+  .cart-items-container .card img {
+    width: 110px;
+  }
+}

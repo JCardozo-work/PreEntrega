@@ -1,0 +1,25 @@
+.list-heading {
+  padding: 1rem 0 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid var(--ink);
+}
+
+.list-heading h1 {
+  margin-bottom: 0;
+}
+
+.eyebrow {
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+.lead {
+  margin-top: 0.75rem;
+  max-width: 34rem;
+  font-size: 1.15rem;
+  color: var(--text-secondary);
+}

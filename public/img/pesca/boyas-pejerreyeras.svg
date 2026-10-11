@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img"><rect width="600" height="450" fill="#dfe7e3"/><circle cx="470" cy="110" r="150" fill="#fff" opacity=".18"/><path d="M0 360 q50 -22 100 0 t100 0 t100 0 t100 0 t100 0 t100 0 V450 H0Z" fill="#1f5c53" opacity=".35"/><path d="M0 385 q50 -18 100 0 t100 0 t100 0 t100 0 t100 0 t100 0 V450 H0Z" fill="#1f5c53" opacity=".55"/><g transform="translate(200 215)">
+<line x1="0" y1="-110" x2="0" y2="120" stroke="#14302b" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="0" cy="0" rx="26" ry="50" fill="#f3efe4"/>
+<path d="M-26 0 a26 50 0 0 1 52 0Z" fill="#e4572e"/>
+<line x1="0" y1="-110" x2="0" y2="-78" stroke="#e4572e" stroke-width="7" stroke-linecap="round"/></g><g transform="translate(300 241)">
+<line x1="0" y1="-110" x2="0" y2="120" stroke="#14302b" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="0" cy="0" rx="26" ry="50" fill="#f3efe4"/>
+<path d="M-26 0 a26 50 0 0 1 52 0Z" fill="#f2b134"/>
+<line x1="0" y1="-110" x2="0" y2="-78" stroke="#f2b134" stroke-width="7" stroke-linecap="round"/></g><g transform="translate(400 215)">
+<line x1="0" y1="-110" x2="0" y2="120" stroke="#14302b" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="0" cy="0" rx="26" ry="50" fill="#f3efe4"/>
+<path d="M-26 0 a26 50 0 0 1 52 0Z" fill="#e4572e"/>
+<line x1="0" y1="-110" x2="0" y2="-78" stroke="#e4572e" stroke-width="7" stroke-linecap="round"/></g></svg>

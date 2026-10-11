@@ -1,0 +1,37 @@
+/* El detalle reutiliza Item, pero en dos columnas y con la descripción completa */
+.detail-wrapper .card {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+}
+
+.detail-wrapper .card img {
+  height: 100%;
+}
+
+.detail-wrapper .card-body {
+  justify-content: center;
+  gap: 0.75rem;
+  padding: clamp(1.25rem, 4vw, 3rem);
+}
+
+.detail-wrapper .card h3 {
+  font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+  font-weight: 800;
+}
+
+.detail-wrapper .card-description {
+  display: block;
+  overflow: visible;
+  font-size: 1.05rem;
+}
+
+.detail-wrapper .card-price {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+@media (max-width: 720px) {
+  .detail-wrapper .card {
+    grid-template-columns: 1fr;
+  }
+}

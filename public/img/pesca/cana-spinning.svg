@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img"><rect width="600" height="450" fill="#f1dcc0"/><circle cx="470" cy="110" r="150" fill="#fff" opacity=".18"/><path d="M0 360 q50 -22 100 0 t100 0 t100 0 t100 0 t100 0 t100 0 V450 H0Z" fill="#b9833f" opacity=".35"/><path d="M0 385 q50 -18 100 0 t100 0 t100 0 t100 0 t100 0 t100 0 V450 H0Z" fill="#b9833f" opacity=".55"/><g stroke-linecap="round" fill="none">
+<line x1="90" y1="350" x2="460" y2="70" stroke="#e4572e" stroke-width="7"/>
+<line x1="90" y1="350" x2="170" y2="302" stroke="#14302b" stroke-width="16"/>
+<circle cx="200" cy="296" r="20" fill="#14302b" stroke="#f3efe4" stroke-width="5"/>
+<circle cx="200" cy="296" r="5" fill="#f3efe4"/>
+<circle cx="219.5" cy="261" r="6" stroke="#14302b" stroke-width="3"/><circle cx="293.5" cy="205" r="6" stroke="#14302b" stroke-width="3"/><circle cx="356.4" cy="157.4" r="6" stroke="#14302b" stroke-width="3"/><circle cx="411.9" cy="115.4" r="6" stroke="#14302b" stroke-width="3"/>
+<path d="M460 70 q20 120 -40 250" stroke="#14302b" stroke-width="1.5" stroke-dasharray="2 6"/>
+<path d="M420 320 q0 22 -16 22 q-12 0 -10 -12" stroke="#14302b" stroke-width="4"/></g></svg>

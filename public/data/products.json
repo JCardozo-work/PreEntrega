@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Caña Telescópica Paraná 3,60 m",
+    "description": "Caña telescópica de fibra de carbono, 6 tramos, acción media. Entra en la mochila y rinde tanto en variada de costa como embarcado en el río.",
+    "price": 68900,
+    "image": "/img/pesca/cana-telescopica.svg",
+    "category": "canas"
+  },
+  {
+    "id": 2,
+    "name": "Caña de Spinning Delta 2,10 m",
+    "description": "Dos tramos, grafito IM7, acción rápida y mango de corcho. Pensada para lanzar señuelos de 7 a 21 g buscando tarariras y dorados.",
+    "price": 84500,
+    "image": "/img/pesca/cana-spinning.svg",
+    "category": "canas"
+  },
+  {
+    "id": 3,
+    "name": "Reel Frontal Surubí 4000",
+    "description": "Reel frontal con 5 rulemanes, freno delantero de carbono y carretel de aluminio. Carga 200 m de nylon 0,35. Manija reversible.",
+    "price": 97000,
+    "image": "/img/pesca/reel-frontal.svg",
+    "category": "reels"
+  },
+  {
+    "id": 4,
+    "name": "Reel Rotativo Dorado Pro",
+    "description": "Rotativo de perfil bajo con freno magnético de 10 posiciones y relación 7.1:1. Recupera rápido y aguanta las corridas más largas.",
+    "price": 132000,
+    "image": "/img/pesca/reel-rotativo.svg",
+    "category": "reels"
+  },
+  {
+    "id": 5,
+    "name": "Cuchara Ondulante N°3",
+    "description": "Cuchara ondulante de 14 g con baño plateado y anzuelo triple reforzado. Un clásico que no falla para dorado y trucha.",
+    "price": 7800,
+    "image": "/img/pesca/cuchara-ondulante.svg",
+    "category": "senuelos"
+  },
+  {
+    "id": 6,
+    "name": "Paseante Tararira 9 cm",
+    "description": "Señuelo de superficie de 9 cm y 12 g con acción zigzag y sonajero interno. Para trabajarlo entre los juncos al amanecer.",
+    "price": 11200,
+    "image": "/img/pesca/paseante-tararira.svg",
+    "category": "senuelos"
+  },
+  {
+    "id": 7,
+    "name": "Caja de Pesca 3 Bandejas",
+    "description": "Caja rígida con tres bandejas desplegables, divisores móviles y cierre de seguridad. Todo el equipo ordenado y a mano.",
+    "price": 39900,
+    "image": "/img/pesca/caja-de-pesca.svg",
+    "category": "accesorios"
+  },
+  {
+    "id": 8,
+    "name": "Boyas Pejerreyeras x3",
+    "description": "Set de tres boyas de madera balsa pintadas a mano, alta visibilidad. Las compañeras de siempre para el pejerrey de laguna.",
+    "price": 6500,
+    "image": "/img/pesca/boyas-pejerreyeras.svg",
+    "category": "accesorios"
+  }
+]
