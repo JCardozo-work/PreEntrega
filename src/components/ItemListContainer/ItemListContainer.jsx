@@ -11,7 +11,7 @@ export const ItemListContainer = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/data/products.json")
+    fetch("/data/productos.json")
       .then((res) => {
         if (!res.ok) {
           throw new Error("Error al cargar los productos");
@@ -35,13 +35,8 @@ export const ItemListContainer = () => {
   return (
     <section>
       <div className="list-heading">
-        <p className="eyebrow">{category ? "Categoría" : "Río, laguna y mar"}</p>
-        <h1>{category ? getCategoryLabel(category) : "Que no se te escape."}</h1>
-        {!category && (
-          <p className="lead">
-            Cañas, reels, señuelos y todo lo que entra en la caja de pesca.
-          </p>
-        )}
+        <p className="eyebrow">{category ? "Categoría" : "Catálogo"}</p>
+        <h2>{category ? getCategoryLabel(category) : "Todos los productos"}</h2>
       </div>
       <ItemList products={visibleProducts} />
     </section>

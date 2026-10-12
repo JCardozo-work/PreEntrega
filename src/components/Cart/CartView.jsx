@@ -19,7 +19,7 @@ export const CartView = () => {
       ) : (
         <>
           <p className="empty-cart">Todavía no pescaste nada.</p>
-          <Link className="btn bg-primary" to={"/"}>
+          <Link className="btn bg-primary" to={"/productos"}>
             Ver productos
           </Link>
         </>

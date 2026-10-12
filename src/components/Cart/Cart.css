@@ -57,3 +57,7 @@
     width: 110px;
   }
 }
+
+.cart-line {
+  color: var(--text-secondary);
+}

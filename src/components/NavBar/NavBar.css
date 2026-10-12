@@ -1,0 +1,19 @@
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1.4rem;
+}
+
+.nav-list a:not(.cart-widget) {
+  display: inline-flex;
+  padding: 0.3rem 0;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.nav-list a:not(.cart-widget):hover,
+.nav-list a.active {
+  border-color: var(--primary);
+}

@@ -1,4 +1,4 @@
-import { Nav } from "../Nav/Nav";
+import { NavBar } from "../NavBar/NavBar";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.svg";
 import "./Header.css";
@@ -15,7 +15,7 @@ export const Header = () => {
           </span>
         </Link>
       </div>
-      <Nav />
+      <NavBar />
     </header>
   );
 };

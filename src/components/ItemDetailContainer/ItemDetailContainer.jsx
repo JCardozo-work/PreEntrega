@@ -13,7 +13,7 @@ export const ItemDetailContainer = () => {
     //se vuelve a pedir el detalle. "ignore" descarta respuestas viejas.
     let ignore = false;
 
-    fetch("/data/products.json")
+    fetch("/data/productos.json")
       .then((res) => {
         if (!res.ok) {
           throw new Error("Error al cargar el producto");
@@ -48,8 +48,8 @@ export const ItemDetailContainer = () => {
     return (
       <section className="status">
         <h1>{error ?? "Producto no encontrado"}</h1>
-        <Link className="btn bg-primary" to={"/"}>
-          Volver a la tienda
+        <Link className="btn bg-primary" to={"/productos"}>
+          Volver al catálogo
         </Link>
       </section>
     );
@@ -57,7 +57,7 @@ export const ItemDetailContainer = () => {
 
   return (
     <section>
-      <Link className="back-link" to={"/"}>
+      <Link className="back-link" to={"/productos"}>
         ← Volver al listado
       </Link>
       <ItemDetail item={itemDetail} />

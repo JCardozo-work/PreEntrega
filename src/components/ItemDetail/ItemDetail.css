@@ -35,3 +35,25 @@
     grid-template-columns: 1fr;
   }
 }
+
+.detail-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.25rem;
+  margin-top: 0.6rem;
+}
+
+.detail-wrapper .card .detail-actions button {
+  margin-top: 0;
+}
+
+.in-cart-note {
+  color: var(--text-secondary);
+}
+
+.in-cart-note a {
+  color: var(--river);
+  font-weight: 600;
+  text-decoration: underline;
+}

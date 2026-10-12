@@ -26,61 +26,53 @@ export const CartProvider = ({ children }) => {
   const navigate = useNavigate();
   const [cart, setCart] = useState([]);
 
-  const isInCart = (item) => {
-    const inCart = cart.some((element) => element.id === item.id);
-    return inCart;
+  //Si el producto ya está, suma la cantidad; si no, lo agrega
+  const addToCart = (item, quantity = 1) => {
+    setCart((prev) => {
+      const inCart = prev.some((element) => element.id === item.id);
+      if (inCart) {
+        return prev.map((element) =>
+          element.id === item.id
+            ? { ...element, quantity: element.quantity + quantity }
+            : element,
+        );
+      }
+      return [...prev, { ...item, quantity }];
+    });
   };
 
-  const addItem = (item) => {
-    if (isInCart(item)) {
-      alert("El producto ya existe en el carrito");
-      return;
-    }
-    //Forma funcional "prev"
-    //setCart(prev => [...prev, item])
-    setCart([...cart, item]);
-    alert("Producto agregado al carrito 🎉");
-  };
-
-  //Eliminar del carrito
   const removeItem = (id) => {
-    const updatedCart = cart.filter((element) => element.id !== id);
-    setCart(updatedCart);
-    alert("Producto eliminado ✅");
-
-    //Forma funcional "prev"
-    //setCart((prev) => prev.filter((element) => element.id !== id));
+    setCart((prev) => prev.filter((element) => element.id !== id));
   };
 
-  //Vacia el carrito
   const clearCart = () => {
     setCart([]);
   };
 
-  //Total de items en carrito (para este caso sin quantity)
-  const getTotalItems = () => {
-    return cart.length;
-  };
+  const getQuantity = (id) =>
+    cart.find((element) => element.id === id)?.quantity ?? 0;
 
-  //Total a pagar
-  const getCartTotal = () => {
-    return cart.reduce((acc, element) => acc + element.price, 0);
-  };
+  //Cantidad total de unidades (lo muestra el CartWidget)
+  const getTotalItems = () =>
+    cart.reduce((acc, element) => acc + element.quantity, 0);
 
-  //Checkout
+  const getCartTotal = () =>
+    cart.reduce((acc, element) => acc + element.price * element.quantity, 0);
+
   const checkout = () => {
-    alert("Su compra ha sido realizada 🎉");
+    alert("¡Gracias por tu compra! 🎣");
     clearCart();
     navigate("/");
   };
 
   const values = {
     cart,
-    addItem,
-    clearCart,
+    addToCart,
     removeItem,
-    getCartTotal,
+    clearCart,
+    getQuantity,
     getTotalItems,
+    getCartTotal,
     checkout,
   };
 
