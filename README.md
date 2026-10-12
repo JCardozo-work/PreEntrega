@@ -1,15 +1,6 @@
-# El Pique 🎣
+# El Pique 🎣 | Que no se te escape.
 
-Tienda online de artículos de pesca hecha con React + Vite + React Router.
-
-## Rutas
-
-| Ruta | Qué muestra | Componente |
-|---|---|---|
-| `/` | Listado de productos | `ItemListContainer` |
-| `/category/:category` | Listado filtrado por categoría | `ItemListContainer` |
-| `/product/:id` | Detalle de producto | `ItemDetailContainer` |
-| `/cart` | Carrito | `CartView` |
+Tienda online de artículos de pesca
 
 ## Estructura
 
@@ -31,9 +22,5 @@ src/
 public/data/products.json     Catálogo
 ```
 
-## Cómo correrlo
 
-```bash
-npm install
-npm run dev
-```
+
